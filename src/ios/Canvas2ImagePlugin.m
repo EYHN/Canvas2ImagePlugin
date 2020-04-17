@@ -41,6 +41,7 @@
             [self.commandDelegate sendPluginResult:result callbackId:self.callbackId];
         }
     }];
+    [imageData release];
     [library release];
 }
 
